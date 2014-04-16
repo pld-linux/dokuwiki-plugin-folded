@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	DokuWiki folded plugin
 Name:		dokuwiki-plugin-%{plugin}
-Version:	20111226
+Version:	20130207
 Release:	1
 License:	GPL v2
 Group:		Applications/WWW
-Source0:	https://github.com/dokufreaks/plugin-%{plugin}/tarball/master#/%{plugin}-%{version}.tgz
-# Source0-md5:	67e3c8c4f5a0a25a48e239b1e9ef29c0
+Source0:	https://github.com/dokufreaks/plugin-%{plugin}/tarball/master/%{plugin}-%{version}.tgz
+# Source0-md5:	343fdef474f78cbfdac0c2a0b4902f7c
 URL:		http://www.dokuwiki.org/plugin:folded
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.520
@@ -58,5 +58,6 @@ fi
 %{plugindir}/*.gif
 %{plugindir}/*.js
 %{plugindir}/*.txt
+%{plugindir}/*.php
 %{plugindir}/conf
 %{plugindir}/syntax
