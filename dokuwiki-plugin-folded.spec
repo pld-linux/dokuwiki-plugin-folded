@@ -1,6 +1,5 @@
 %define		plugin		folded
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	DokuWiki folded plugin
 Name:		dokuwiki-plugin-%{plugin}
 Version:	20130207
